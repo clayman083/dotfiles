@@ -1,0 +1,26 @@
+set backspace=indent,eol,start
+set mousemodel=popup
+
+set ruler
+set completeopt-=preview
+
+syntax on
+
+set enc=utf-8
+set ls=2
+set incsearch
+set hlsearch
+set nu
+set scrolloff=5
+
+set nobackup
+set nowritebackup
+set noswapfile
+
+set smarttab
+set tabstop=4
+
+autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=8
+\ formatoptions+=croq softtabstop=4 smartindent
+\ cinwords=if,elif,else,for,while,try,except,finally,def,class,with
+autocmd FileType pyrex setlocal expandtab shiftwidth=4 tabstop=8 softtabstop=4 smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class,with

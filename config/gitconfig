@@ -1,13 +1,16 @@
 [core]
   excludesfile = ~/.gitignore_global
 [pager]
-  diff = diff-so-fancy | less --tabs=1,5 -RFXM
-  show = diff-so-fancy | less --tabs=1,5 -RFXM
+  branch = false
 [credential]
   helper = osxkeychain
 [submodule]
   recurse = true
   fetchJobs = 0
+
+[user]
+  name = Kirill Sumorokov
+  email = sumorokov.k@gmail.com
 
 # Colors
 [color]
@@ -24,7 +27,3 @@
   old = red bold
   new = green bold
   whitespace = red reverse
-
-# Allow local customizations in the .gitconfig_local file
-[include]
-  path = ~/.gitconfig_local

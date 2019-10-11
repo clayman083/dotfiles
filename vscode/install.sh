@@ -1,0 +1,13 @@
+code --install-extension alefragnani.bookmarks
+code --install-extension eamodio.gitlens
+code --install-extension editorconfig.editorconfig
+code --install-extension emmanuelbeziat.vscode-great-icons
+code --install-extension esbenp.prettier-vscode
+code --install-extension jolaleye.horizon-theme-vscode
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-python.python
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension orta.vscode-jest
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension streetsidesoftware.code-spell-checker-russian
+code --install-extension vscoss.vscode-ansible

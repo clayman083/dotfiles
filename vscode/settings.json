@@ -1,0 +1,132 @@
+{
+  "breadcrumbs.enabled": false,
+
+  "cSpell.language": "en,en-GB,en-US,ru",
+  "cSpell.showStatus": false,
+  "cSpell.diagnosticLevel": "Hint",
+
+  "editor.accessibilitySupport": "off",
+  "editor.codeLens": true,
+  "editor.colorDecorators": true,
+  "editor.cursorSurroundingLines": 3,
+  "editor.dragAndDrop": false,
+  "editor.folding": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.glyphMargin": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "selection",
+  "editor.rulers": [120],
+  "editor.scrollBeyondLastLine": false,
+  "editor.snippetSuggestions": "none",
+  "editor.tabCompletion": "on",
+  "editor.useTabStops": true,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+
+  "explorer.confirmDelete": false,
+  "explorer.decorations.badges": false,
+
+  "extensions.ignoreRecommendations": true,
+
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    ".cache": true,
+    ".idea": true,
+    ".mypy_cache": true,
+    ".scannerwork": true,
+    ".sonarlint": true,
+    ".vagrant": true,
+    ".vscode": true,
+    "**/__pycache__": true,
+    "**/.cache": true,
+    "**/.coverage": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/.sonarlint": true,
+    "**/.tox": true,
+    "**/.venv": true,
+    "**/*.egg-info": true,
+    "**/*.py[co]": true,
+    "**/*.retry": true,
+    "**/coverage*": true,
+    "**/dist": true,
+    "**/htmlcov": true,
+    "**/node_modules": true,
+    "**/venv": true
+  },
+  "files.associations": {
+    ".babelrc": "jsonc",
+    ".eslintrc": "jsonc",
+    "*.pyi": "python"
+  },
+
+  "git.autofetch": true,
+  "git.showInlineOpenFileAction": false,
+
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+
+  "scm.defaultViewMode": "tree",
+
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.rendererType": "dom",
+
+  "window.newWindowDimensions": "maximized",
+  "window.restoreWindows": "none",
+  "window.zoomLevel": 0,
+
+  "workbench.sideBar.location": "left",
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "workbench.colorTheme": "Horizon",
+  "workbench.startupEditor": "welcomePage",
+  "workbench.editor.labelFormat": "short",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tips.enabled": false,
+
+  "javascript.suggest.autoImports": false,
+
+  "python.formatting.provider": "none",
+  "python.linting.enabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
+  "python.terminal.activateEnvironment": true,
+  "python.workspaceSymbols.enabled": true,
+
+  "typescript.suggest.autoImports": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "[postcss]": {
+    "editor.formatOnSave": true
+  },
+
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  }
+}

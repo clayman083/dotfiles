@@ -1,0 +1,30 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+brew "openssl"
+brew "autoenv"
+brew "dnsmasq"
+brew "readline"
+brew "sqlite"
+brew "python"
+brew "mc"
+brew "node"
+brew "tmux"
+brew "pipenv"
+brew "kennethreitz/-/bake"
+brew "mas"
+brew "vim"
+brew "httpie"
+cask "docker"
+cask "font-fira-code"
+cask "iterm2-nightly"
+cask "postman"
+cask "tunnelblick"
+cask "vagrant"
+cask "visual-studio-code"
+mas "Amphetamine", id: 937984704
+mas "Monosnap", id: 540348655
+mas "Telegram", id: 747648890
+mas "The Unarchiver", id: 425424353
+mas "Xcode", id: 497799835
