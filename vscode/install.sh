@@ -6,8 +6,9 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension jolaleye.horizon-theme-vscode
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension orta.vscode-jest
-code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension streetsidesoftware.code-spell-checker-russian
 code --install-extension vscoss.vscode-ansible
+code --install-extension mtxr.sqltools
+code --install-extension mtxr.sqltools-driver-pg
