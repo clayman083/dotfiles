@@ -1,16 +1,14 @@
 {
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
 
-  "cSpell.language": "en,en-GB,en-US,ru",
-  "cSpell.showStatus": false,
-  "cSpell.diagnosticLevel": "Hint",
+  "diffEditor.ignoreTrimWhitespace": false,
 
   "editor.accessibilitySupport": "off",
   "editor.codeLens": true,
   "editor.colorDecorators": true,
   "editor.cursorSurroundingLines": 3,
   "editor.dragAndDrop": false,
-  "editor.folding": false,
+  "editor.folding": true,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
@@ -18,13 +16,13 @@
   "editor.formatOnSave": false,
   "editor.glyphMargin": true,
   "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "selection",
+  "editor.renderWhitespace": "boundary",
   "editor.rulers": [120],
   "editor.scrollBeyondLastLine": false,
   "editor.snippetSuggestions": "none",
   "editor.tabCompletion": "on",
-  "editor.useTabStops": true,
-  "editor.wordWrap": "on",
+  "editor.useTabStops": false,
+  "editor.wordWrap": "off",
   "editor.wordWrapColumn": 80,
 
   "explorer.confirmDelete": false,
@@ -58,12 +56,41 @@
     "**/dist": true,
     "**/htmlcov": true,
     "**/node_modules": true,
+    "**/pip-wheel-metadata": true,
     "**/venv": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist/**": true
   },
   "files.associations": {
     ".babelrc": "jsonc",
     ".eslintrc": "jsonc",
     "*.pyi": "python"
+  },
+
+  "search.exclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist/**": true
   },
 
   "git.autofetch": true,
@@ -94,19 +121,21 @@
   "window.restoreWindows": "none",
   "window.zoomLevel": 0,
 
-  "workbench.sideBar.location": "left",
-  "workbench.iconTheme": "vscode-great-icons",
   "workbench.activityBar.visible": true,
-  "workbench.statusBar.visible": true,
   "workbench.colorTheme": "Horizon",
-  "workbench.startupEditor": "welcomePage",
+  "workbench.editor.enablePreview": true,
   "workbench.editor.labelFormat": "short",
-  "workbench.tree.renderIndentGuides": "none",
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "welcomePage",
+  "workbench.statusBar.visible": true,
   "workbench.tips.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
 
   "javascript.suggest.autoImports": false,
 
   "python.formatting.provider": "none",
+  "python.languageServer": "Pylance",
   "python.linting.enabled": false,
   "python.linting.pylintEnabled": false,
   "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
@@ -123,10 +152,21 @@
     "editor.formatOnSave": true
   },
 
+  "[yaml]": {
+    "editor.autoIndent": false
+  },
+
   "[typescript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.formatOnSave": true
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
