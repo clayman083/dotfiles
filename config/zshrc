@@ -100,6 +100,12 @@ alias drdi="docker images -qf dangling=true | xargs docker rmi"
 alias drm="docker rm"
 alias drmi="docker rmi"
 
+# poetry aliases
+alias pi="poetry install"
+alias peu="poetry env use"
+alias pr="poetry run"
+alias pr3="poetry run python3"
+
 source ~/.profile
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
