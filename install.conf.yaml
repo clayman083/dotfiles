@@ -7,6 +7,7 @@
     # ~/.dotfiles: ''
     # ~/.tmux.conf: tmux.conf
     ~/.vimrc: config/vim/vimrc
+    ~/.zshrc: config/zshrc
 
     # SSH:
     # ~/.ssh/config_back: config/ssh_config
